@@ -14,7 +14,7 @@
                 notA=  "IP entered incorrectly";
                 break;
               case "2": 
-                p =/\d{5}/;
+                p =/^\d{5}$/;
                 yesA = "Postcode entered correctly";
                 notA=  "Postcode entered incorrectly";
                 break;
